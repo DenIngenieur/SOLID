@@ -8,7 +8,7 @@
 
 ## Acronym
 - S : Single Responsibility Principle ([SRP](SRP)).
-- O : Open closed Principle ([OSP](OSP)).
+- O : Open closed Principle ([OCP](OCP)).
 - L : Liskov substitution Principle ([LSP](LSP)).
 - I : Interface Segregation Principle ([ISP](ISP)).
 - D : Dependency Inversion Principle ([DIP](DIP)).
