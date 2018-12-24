@@ -14,11 +14,11 @@
 - D : Dependency Inversion Principle (DIP).
 
 ### Single Responsibility Principle:
-1. Robert C. Martin expresses the principle as, "A class should have only one reason to change".
+1. Robert C. Martin expresses the principle as: "A class should have only one reason to change.".
 2. Every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class.
 
 ### Open/Closed Principle:
-1. "Software entities should be open for extension, but closed for modification".
+1. Software entities should be open for extension, but closed for modification.
 2. The design and writing of the code should be done in a way that new functionality should be added with minimum changes in the existing code.
 3. The design should be done in a way to allow the adding of new functionality as new classes, keeping as much as possible existing code unchanged.
 
@@ -28,11 +28,11 @@
 3. We can also state that derived types must be substitutable for their base types.
 
 ### Interface Segregation Principle:
-1. "Many client-specific interfaces are better than one general-purpose interface".
+1. Many client-specific interfaces are better than one general-purpose interface.
 2. We should not enforce clients to implement interfaces that they don't use. Instead of creating one big interface we can break down it to smaller interfaces.
 
 ### Dependency Inversion Principle:
-1. One should "depend upon abstractions, not concretions".
+1. One should depend upon abstractions, not concretions.
 2. Abstractions should not depend on the details whereas the details should depend on abstractions.
 3. High-level modules should not depend on low level modules.
 
