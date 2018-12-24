@@ -6,7 +6,11 @@
 - I : Interface Segregation Principle (ISP).
 - D : Dependency Inversion Principle (DIP).
 
-## Liskov Substitution Principle:
+## Liskov Substitution Principle
+### Definition
+Substitutability is a principle in object-oriented programming and it states that, in a computer program, if S is a Subtype of T, then objects of type T may be replaced with objects of type S.
+
+### What 
 1. Introduced by [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov), it states that "objects in a program should be replaceable with instances of their sub-types without altering the correctness of that program".
 2. If a program module is using a base class, then the reference to the base class can be replaced with a derived class without affecting the functionality of the program module.
 3. We can also state that derived types must be substitutable for their base types.
