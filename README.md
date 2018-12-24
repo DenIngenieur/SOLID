@@ -7,11 +7,11 @@
 4. The SOLID acronym was first introduced by Michael Feathers.
 
 ## Acronym
-- S : Single Responsibility Principle (SRP).
-- O : Open closed Principle (OSP).
-- L : Liskov substitution Principle (LSP).
-- I : Interface Segregation Principle (ISP).
-- D : Dependency Inversion Principle (DIP).
+- S : Single Responsibility Principle ([SRP](SRP)).
+- O : Open closed Principle ([OSP](OSP)).
+- L : Liskov substitution Principle ([LSP](LSP)).
+- I : Interface Segregation Principle ([ISP](ISP)).
+- D : Dependency Inversion Principle ([DIP](DIP)).
 
 ### Single Responsibility Principle:
 1. Robert C. Martin expresses the principle as: "A class should have only one reason to change.".
