@@ -1,6 +1,6 @@
 # SOLID
-    <h1>SOLID</h1>
-    <h2>SOLID Acronym</h2>
+    
+    ###SOLID Acronym
     <ul>
       <li>
         S : Single Responsibility Principle (SRP)
