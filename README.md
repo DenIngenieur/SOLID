@@ -47,7 +47,7 @@
 ## Following SOLID Principles helps us to:
 1. Achieve reduction in complexity of code.
 2. Increase readability, extensibility and maintenance.
-3. Reduce error and implement Reusability.
-4. Achieve Better testability.
+3. Reduce error and implement reusability.
+4. Achieve better testability.
 5. Reduce tight coupling.
  
