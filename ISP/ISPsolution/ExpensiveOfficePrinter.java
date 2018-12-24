@@ -1,14 +1,14 @@
 /**
- * This expensive office printer inplements the PrinterTasks interface
- * and can provide all the tasks.
- * It can print, scan, copy and fax.
- * So it implements all 4 PrinterTask interfaces.
+ * This is an expensive office printer that can print, scan, copy and fax.
+ * So it implements all those PrinterTask interfaces.
+ * Notice that it can't print in duplex!
  */
 
 package be.ucll.ooo.solid;
 
-// machine can print and scan (= basic functions), but also fax and copy, so implement all those interfaces
-public class ExpensiveOfficePrinter implements PrinterTaskBasic, PrinterTaskFax, PrinterTaskCopy {
+// This machine can print, scan, copy and fax, so we implement all those interfaces.
+// It can not print in duplex though, so that interface does not get implemented!
+public class ExpensiveOfficePrinter implements PrinterTaskPrint, PrinterTaskFax, PrinterTaskScanAndCopy {
     @Override
     public boolean printContent(String content) {
         System.out.println("Content printed.");

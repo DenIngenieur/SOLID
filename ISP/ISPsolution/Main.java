@@ -44,8 +44,7 @@ public class Main {
         System.out.println("Using the inexpensive machine:");
         System.out.println("Succes: " + cheapHomePrinter.printContent("Very important message (VIM)!"));
         System.out.println("Succes: " + cheapHomePrinter.scanContent("Very important message (VIM)!"));
-        // Not possible to do this useless call on this printer (hardware does not support it anyway).
-        //System.out.println("Succes: " + cheapHomePrinter.photoCopyContent("Very important message (VIM)!"));
+        System.out.println("Succes: " + cheapHomePrinter.photoCopyContent("Very important message (VIM)!"));
         // Not possible to do this useless call on this printer (hardware does not support it anyway).
         //System.out.println("Succes: " + cheapHomePrinter.faxContent("Very important message (VIM)!"));
     }
