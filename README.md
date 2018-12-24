@@ -23,7 +23,7 @@
 3. The design should be done in a way to allow the adding of new functionality as new classes, keeping as much as possible existing code unchanged.
 
 ### Liskov Substitution Principle:
-1. Introduced by [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov), it states that "objects in a program should be replaceable with instances of their sub-types without altering the correctness of that program".
+1. Introduced by [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov){:target="_blank"}, it states that "objects in a program should be replaceable with instances of their sub-types without altering the correctness of that program".
 2. If a program module is using a base class, then the reference to the base class can be replaced with a derived class without affecting the functionality of the program module.
 3. We can also state that derived types must be substitutable for their base types.
 
