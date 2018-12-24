@@ -1,4 +1,4 @@
-#SOLID 
+#SOLID#
 
 ##SOLID Introduction.
 1. SOLID principles are the design principles that enable us manage most of the software design problems.
