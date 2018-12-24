@@ -1,10 +1,10 @@
 # Liskov Substitution Principle
 ## Acronym
-- S : Single Responsibility Principle ([SRP](SRP)).
-- O : Open closed Principle ([OCP](OCP)).
-- L : Liskov substitution Principle ([LSP](LSP)).
-- I : Interface Segregation Principle ([ISP](ISP)).
-- D : Dependency Inversion Principle ([DIP](DIP)).
+- S : Single Responsibility Principle (SRP).
+- O : Open closed Principle (OSP).
+- L : Liskov substitution Principle (LSP).
+- I : Interface Segregation Principle (ISP).
+- D : Dependency Inversion Principle (DIP).
 
 ## Liskov Substitution Principle:
 1. Introduced by [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov), it states that "objects in a program should be replaceable with instances of their sub-types without altering the correctness of that program".
