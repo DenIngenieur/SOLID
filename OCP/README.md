@@ -5,7 +5,7 @@
 - I : Interface Segregation Principle (ISP).
 - D : Dependency Inversion Principle (DIP).
 
-## Open/Closed Principle:
+# Open/Closed Principle:
 1. Software entities should be open for extension, but closed for modification.
 2. The design and writing of the code should be done in a way that new functionality should be added with minimum changes in the existing code.
 3. The design should be done in a way to allow the adding of new functionality as new classes, keeping as much as possible existing code unchanged.
