@@ -23,16 +23,16 @@
 3. The design should be done in a way to allow the adding of new functionality as new classes, keeping as much as possible existing code unchanged.
 
 ### Liskov Substitution Principle.
-1. Introduced by Barbara Liskov state that "objects in a program should be replaceable with instances of their sub-types without altering the correctness of that program".
-2. If a program module is using a Base class, then the reference to the Base class can be replaced with a Derived class without affecting the functionality of the program module.
-3. We can also state that Derived types must be substitutable for their base types.
+1. Introduced by Barbara Liskov, it states that "objects in a program should be replaceable with instances of their sub-types without altering the correctness of that program".
+2. If a program module is using a base class, then the reference to the base class can be replaced with a derived class without affecting the functionality of the program module.
+3. We can also state that derived types must be substitutable for their base types.
 
 ### Interface Segregation Principle.
 1. "Many client-specific interfaces are better than one general-purpose interface".
 2. We should not enforce clients to implement interfaces that they don't use. Instead of creating one big interface we can break down it to smaller interfaces.
 
 ### Dependency Inversion Principle.
-1. One should "depend upon abstractions, [not] concretions".
+1. One should "depend upon abstractions, not concretions".
 2. Abstractions should not depend on the details whereas the details should depend on abstractions.
 3. High-level modules should not depend on low level modules.
 
