@@ -11,8 +11,8 @@
 2. If a program module is using a base class, then the reference to the base class can be replaced with a derived class without affecting the functionality of the program module.
 3. We can also state that derived types must be substitutable for their base types.
 
-## Implementation guidelines : 
-In the process of development we should ensure that 
+## Implementation guidelines
+In the process of development we should ensure that: 
 1. No new exceptions can be thrown by the subtype unless they are part of the existing exception hierarchy. 
 2. We should also ensure that clients should not know which specific subtype they are calling, nor should they need to know that. The client should behave the same regardless of the subtype instance that it is given. 
 3. And last but not the least, newly derived classes just extend without replacing the functionality of old classes.
