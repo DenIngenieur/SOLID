@@ -10,7 +10,8 @@
 2. We should not enforce clients to implement interfaces that they don't use. Instead of creating one big interface we can break down it to smaller interfaces.
 
 # How not to do it
-See ISP1 folder for source code.
+See [ISP1 folder](SOLID/ISP/ISP1) for source code.
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
 
 # How to do it
 See ISPsolution folder for source code.
