@@ -19,6 +19,7 @@ In the process of development we should ensure that:
 
 ## How not to do it
 See [LSP1 folder](LSP1) for source code.
+
 This builds on the [OCP example](https://github.com/rudydekeerschieter/SOLID/tree/master/OCP)! So look at that first if you're not familiar with it.
 
 ## How to do it
