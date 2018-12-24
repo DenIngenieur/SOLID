@@ -14,7 +14,7 @@
 - D : Dependency Inversion Principle ([DIP](DIP)).
 
 ### Single Responsibility Principle:
-1. Robert C. Martin expresses the principle as: "A class should have only one reason to change.".
+1. [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin) expresses the principle as: "A class should have only one reason to change.".
 2. Every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class.
 
 ### Open/Closed Principle:
