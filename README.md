@@ -1,37 +1,37 @@
 # SOLID
 
-## SOLID Introduction.
+## Introduction
 1. SOLID principles are the design principles that enable us manage most of the software design problems.
 2. The term SOLID is an acronym for five design principles intended to make software designs more understandable, flexible and maintainable.
 3. The principles are a subset of many principles promoted by Robert C. Martin.
 4. The SOLID acronym was first introduced by Michael Feathers.
 
-## SOLID Acronym
+## Acronym
 - S : Single Responsibility Principle (SRP).
 - O : Open closed Principle (OSP).
 - L : Liskov substitution Principle (LSP).
 - I : Interface Segregation Principle (ISP).
 - D : Dependency Inversion Principle (DIP).
 
-### Single Responsibility Principle.
+### Single Responsibility Principle:
 1. Robert C. Martin expresses the principle as, "A class should have only one reason to change".
 2. Every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class.
 
-### Open/Closed Principle.
+### Open/Closed Principle:
 1. "Software entities should be open for extension, but closed for modification".
 2. The design and writing of the code should be done in a way that new functionality should be added with minimum changes in the existing code.
 3. The design should be done in a way to allow the adding of new functionality as new classes, keeping as much as possible existing code unchanged.
 
-### Liskov Substitution Principle.
+### Liskov Substitution Principle:
 1. Introduced by Barbara Liskov, it states that "objects in a program should be replaceable with instances of their sub-types without altering the correctness of that program".
 2. If a program module is using a base class, then the reference to the base class can be replaced with a derived class without affecting the functionality of the program module.
 3. We can also state that derived types must be substitutable for their base types.
 
-### Interface Segregation Principle.
+### Interface Segregation Principle:
 1. "Many client-specific interfaces are better than one general-purpose interface".
 2. We should not enforce clients to implement interfaces that they don't use. Instead of creating one big interface we can break down it to smaller interfaces.
 
-### Dependency Inversion Principle.
+### Dependency Inversion Principle:
 1. One should "depend upon abstractions, not concretions".
 2. Abstractions should not depend on the details whereas the details should depend on abstractions.
 3. High-level modules should not depend on low level modules.
