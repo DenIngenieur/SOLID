@@ -1,7 +1,7 @@
 # SOLID
 
 ## Introduction
-1. SOLID principles ([wikipedia](https://en.wikipedia.org/wiki/SOLID {target: blank})) are the design principles that enable us manage most of the software design problems.
+1. SOLID principles ([wikipedia](https://en.wikipedia.org/wiki/SOLID)) are the design principles that enable us manage most of the software design problems.
 2. The term SOLID is an acronym for five design principles intended to make software designs more understandable, flexible and maintainable.
 3. The principles are a subset of many principles promoted by [Robert C. Martin (aka Uncle Bob)](https://en.wikipedia.org/wiki/Robert_C._Martin).
 4. The SOLID acronym was first introduced by Michael Feathers.
