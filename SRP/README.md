@@ -10,7 +10,7 @@
 2. Every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class.
 
 # How not to do it
-See SRP1 folder for source code.
+See [SRP1 folder](SRP1) for source code.
 
 # How to do it
-See SRPsolution folder for source code.
+See [SRPsolution folder](SRPsolution) for source code.
