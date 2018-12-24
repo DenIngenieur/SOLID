@@ -40,8 +40,6 @@ public class Main {
         System.out.println("Using the inexpensive machine:");
         System.out.println("Succes: " + cheapHomePrinter.printContent("Very important message (VIM)!"));
         System.out.println("Succes: " + cheapHomePrinter.scanContent("Very important message (VIM)!"));
-        // This is a useless functioncall, but you can still do it since it had to be implemented,
-        // it just doesn't do anything.
         System.out.println("Succes: " + cheapHomePrinter.photoCopyContent("Very important message (VIM)!"));
         // This is a useless functioncall, but you can still do it since it had to be implemented,
         // it just doesn't do anything.

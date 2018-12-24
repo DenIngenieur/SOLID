@@ -1,7 +1,7 @@
 /**
  * This inexpensive home printer inplements the PrinterTasks interface
  * but can not provide all the tasks defined in the interface.
- * It can only print and scan, not copy or fax.
+ * It can only print, scan and copy, but not fax.
  * Still, since we implement the PrinterTasks interface, we have to implement all
  * the methods, including copying and faxing, even if this machine can't
  * perform these tasks. This is obviously not a good design.
@@ -30,11 +30,9 @@ public class CheapHomePrinter implements PrinterTasks {
         return false;
     }
 
-    // Pretty useless method, but it still has to be implemented,
-    // even if the hardware can't do this.
     @Override
     public boolean photoCopyContent(String content) {
-        System.out.println("Function not possible!");
-        return false;
+        System.out.println("Content copied.");
+        return true;
     }
 }

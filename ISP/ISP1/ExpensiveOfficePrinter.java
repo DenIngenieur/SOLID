@@ -1,6 +1,6 @@
 /**
  * This expensive office printer inplements the PrinterTasks interface
- * and can provide all the tasks.
+ * and can provide all the tasks defined in that interface.
  * It can print, scan, copy and fax.
  * So no problem here.
  */
