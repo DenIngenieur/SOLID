@@ -10,7 +10,7 @@
 2. The design and writing of the code should be done in a way that new functionality should be added with minimum changes in the existing code.
 3. The design should be done in a way to allow the adding of new functionality as new classes, keeping as much as possible existing code unchanged.
 
-# How **not** to do it
+# How not to do it
 See OCP1 and OCP2 folders for source code.
 
 # How to do it
