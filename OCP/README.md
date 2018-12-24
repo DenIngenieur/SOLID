@@ -11,7 +11,7 @@
 3. The design should be done in a way to allow the adding of new functionality as new classes, keeping as much as possible existing code unchanged.
 
 # How not to do it
-See OCP1 and OCP2 folders for source code.
+See [OCP1](OCP1) and [OCP2](OCP2) folders for source code.
 
 # How to do it
-See OCPsolution folder for source code.
+See [OCPsolution folder](OCPsolution) for source code.
