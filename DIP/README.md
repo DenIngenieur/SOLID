@@ -27,4 +27,4 @@ In this Process of Composition, higher-level components depend directly upon low
 See [DIP1 folder](DIP1) for source code.
 
 ## How to do it
-See [DIPsolution folder](DIPsolution) for source code.
+See [DIP2 folder](DIP2) and [DIP3 folder](DIP3) for source code of progression to the solution.
