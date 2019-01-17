@@ -6,7 +6,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        // needed to change this form Person to PersonInterface !!!!!!!!!!
+        // needed to change this from Person to PersonInterface !!!!!!!!!!
         // We're still depending on the Person class.
         // PersonInterface owner = new Person();
         // So lets use the factory now to create a new Person
@@ -16,7 +16,7 @@ public class Main {
         owner.setEmailAddress("jk@jk.be");
         owner.setPhoneNumber("016 123 456");
 
-        // needed to change this form Task to TaskInterface !!!!!!!!!!
+        // needed to change this from Task to TaskInterface !!!!!!!!!!
         // We're still depending on the Task class.
         // TaskInterface task = new Task();
         // So lets use the factory now to create a new Person

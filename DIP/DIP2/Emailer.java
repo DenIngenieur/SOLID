@@ -5,7 +5,7 @@
 
 // added interface and implementing it here
 public class Emailer implements MessengerInterface {
-    // needed to change this form Person to PersonInterface !!!!!!!!!!
+    // needed to change this from Person to PersonInterface !!!!!!!!!!
     // changes method name from sendMail to sendMessage in interface
     @Override
     public void sendMessage(PersonInterface person, String message) {

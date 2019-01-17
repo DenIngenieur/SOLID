@@ -19,5 +19,4 @@ public class Factory {
     public static MessengerInterface createMessager(){
         return new Emailer(); // just for now
     }
-
 }

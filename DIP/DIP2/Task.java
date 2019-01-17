@@ -6,7 +6,7 @@
 // added interface and implementing it here
 public class Task implements TaskInterface {
     private String taskDescription;
-    // needed to change this form Person to PersonInterface !!!!!!!!!!
+    // needed to change this from Person to PersonInterface !!!!!!!!!!
     private PersonInterface owner;
     private double hoursWorked; // no setter for this
     private boolean isComplete = false; // no setter for this
@@ -14,7 +14,7 @@ public class Task implements TaskInterface {
     @Override
     public void performedWork(double hours) {
         hoursWorked += hours;
-        // needed to change this form Logger to LoggerInterface !!!!!!!!!!
+        // needed to change this from Logger to LoggerInterface !!!!!!!!!!
         LoggerInterface log = new Logger();
         log.log("Performed work on \"" + taskDescription + "\" for: " + hours + " hours. Total time: " + hoursWorked + " hours.");
     }
@@ -22,11 +22,11 @@ public class Task implements TaskInterface {
     @Override
     public void completeTask() {
         isComplete = true;
-        // needed to change this form Logger to LoggerInterface !!!!!!!!!!
+        // needed to change this from Logger to LoggerInterface !!!!!!!!!!
         LoggerInterface log = new Logger();
         log.log("Completed work on \"" + taskDescription + "\". Total time spend: " + hoursWorked + " hours.");
 
-        // needed to change this form Emailer to MessengerInterface !!!!!!!!!!
+        // needed to change this from Emailer to MessengerInterface !!!!!!!!!!
         MessengerInterface emailer = new Emailer();
         emailer.sendMessage(owner, "The task \"" + taskDescription + "\" is done!");
     }
@@ -41,7 +41,7 @@ public class Task implements TaskInterface {
         this.taskDescription = taskDescription;
     }
 
-    // needed to change this form Person to PersonInterface !!!!!!!!!!
+    // needed to change this from Person to PersonInterface !!!!!!!!!!
     @Override
     public PersonInterface getOwner() {
         return owner;
