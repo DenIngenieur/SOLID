@@ -10,11 +10,12 @@ public class Task implements TaskInterface {
     private double hoursWorked; // no setter for this
     private boolean isComplete = false; // no setter for this
 
-    // create variables to contain the logger and messager objects
+    // create variables to contain the logger and messenger objects
     private LoggerInterface logger;
     private MessengerInterface messenger;
 
-    // created a constructor that asks for a logger and a messager
+    // created a constructor that asks for a logger and a messenger
+    // constructor injection!
     public Task(LoggerInterface logger, MessengerInterface messenger) {
         this.logger = logger;
         this.messenger = messenger;
@@ -47,7 +48,6 @@ public class Task implements TaskInterface {
         this.taskDescription = taskDescription;
     }
 
-    // needed to change this form Person to PersonInterface !!!!!!!!!!
     @Override
     public PersonInterface getOwner() {
         return owner;
